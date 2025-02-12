@@ -27,7 +27,7 @@
 				<center>
 					<h1>Too Small!</h1>
 					<h3>It is quite crammed in here!</h3>
-					<p>Your screen / window size is too small.</p>
+					<p>Your screen / window is too small.</p>
 				</center>
 			</div>
 		</div>
