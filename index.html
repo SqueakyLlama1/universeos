@@ -4,29 +4,33 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link rel="icon" type="x/image" href="img/favicon.png">
+		<link rel="icon" type="x/image" href="https://universe-os.com/img/favicon.png">
+
+		<link rel="stylesheet" href="https://universe-os.com/index.css">
 		
-		<title>Universe | Home</title>
-
-		<style>
-			html, head, body {
-				padding: 0;
-				margin: 0;
-				user-select: none;
-				font-family:
-			}
-
-			.navigation {
-				width: 15%;
-				background-color: #f1f1f1;
-				height: 100%;
-				position: fixed;
-				left: 0;
-				top: 0;
-			}
-		</style>
+		<title>Universe | Download</title>
 	</head>
 	<body>
-		<div class="navigation">Test</div>
+		<div class="navigation">
+			<button onclick="navigate('home')" class="selectedButton">Home</button><br>
+			<button onclick="navigate('downloads/')">Download</button>
+		</div>
+		<div id="loadshade">
+			<div class="middlediv">
+				<div class="loader"></div>
+			</div>
+		</div>
+		<div class="content">
+		</div>
+		<div id="mobile-warning">
+			<div class="middlediv">
+				<center>
+					<h1>Too Small!</h1>
+					<h3>It is quite crammed in here!</h3>
+					<p>Your screen / window is too small.</p>
+				</center>
+			</div>
+		</div>
+		<script src="https://universe-os.com/index.js"></script>
 	</body>
 </html>
