@@ -12,7 +12,7 @@ html, head, body {
 				position: fixed;
 				left: 0;
 				top: 0;
-				border-right: 1px solid black;
+				border: none;
 			}
 
 			.content {
@@ -28,18 +28,14 @@ html, head, body {
 				width: 100%;
 				background-color: #f1f1f1;
 				border: none;
-				border-bottom: 1px solid black;
 				font-size: 16px;
 				cursor: pointer;
-				margin-top: 2px;
-				margin-bottom: 2px;
-				padding: 1px;
+				margin: 3px;
 				border-radius: 3px;
 			}
 
 			#navigation button:hover {
-				background-color: white;
-				border-bottom: 1px solid transparent;
+				background-color: #ccc;
 			}
 
 			#loadshade {
