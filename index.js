@@ -1,21 +1,11 @@
 function navigate(url) {
 	document.getElementById('loadshade').style.display = "block";
-	let button = document.createElement('button');
-	let br = document.createElement('br');
-	button.onclick = "location.reload()";
-	button.id = "reloadbutton";
-	document.getElementById('loadshade').appendChild(br);
-	document.getElementById('loadshade').appendChild(br);
-	document.getElementById('loadshade').appendChild(button);
-	document.getElementById('reloadbutton').innerHTML = "Close";
-	setTimeout(function() {
 	const universe = "https://universe-os.com/";
-		if (url == 'home') {
-			window.location.href = universe;
-		} else {
-			window.location.href = universe + url;
-		}
-	}, 500);
+	if (url == 'home') {
+		window.location.href = universe;
+	} else {
+		window.location.href = universe + url;
+	}
 }
 
 function applyNavigation() {
