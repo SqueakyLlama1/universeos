@@ -3,9 +3,11 @@ function navigate(url) {
 	let button = document.createElement('button');
 	let br = document.createElement('br');
 	button.onclick = "location.reload()";
+	button.id = "reloadbutton";
 	document.getElementById('loadshade').appendChild(div);
 	document.getElementById('loadshade').appendChild(div);
 	document.getElementById('loadshade').appendChild(button);
+	document.getElementById('reloadbutton').innerHTML = "Close";
 	setTimeout(function() {
 	const universe = "https://universe-os.com/";
 		if (url == 'home') {
