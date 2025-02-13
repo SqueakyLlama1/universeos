@@ -17,3 +17,5 @@ function applyNavigation() {
 `;
 	document.getElementById('navigation').innerHTML = navcontent;
 }
+
+document.addEventListener('DOMContentLoaded', applyNavigation);
