@@ -12,6 +12,8 @@ html, head, body {
 				position: fixed;
 				left: 0;
 				top: 0;
+				border: none;
+				border-right: 1px soliod #ccc;
 			}
 
 			.content {
