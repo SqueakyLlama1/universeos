@@ -9,3 +9,11 @@ function navigate(url) {
 					}
 				}, 500);
 			}
+
+function applyNavigation() {
+	const navcontent = `
+			<button onclick="navigate('home')" class="selectedButton">Home</button><br>
+			<button onclick="navigate('download/')">Download</button>
+`;
+	document.getElementById('navigation').innerHTML = navcontent;
+}
