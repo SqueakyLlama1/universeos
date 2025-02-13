@@ -7,7 +7,7 @@ html, head, body {
 				overflow-y: scroll;
 			}
 
-			.navigation {
+			#navigation {
 				width: 15%;
 				background-color: #f1f1f1;
 				height: 100%;
@@ -30,7 +30,7 @@ html, head, body {
 				overflow-y: scroll;
 			}
 
-			.navigation button:not(.selectedButton) {
+			#navigation button {
 				width: 100%;
 				background-color: #f1f1f1;
 				border: none;
@@ -39,16 +39,9 @@ html, head, body {
 				cursor: pointer;
 			}
 
-			.navigation button:not(.selectedButton):hover {
+			#navigation button:hover {
 				background-color: white;
 				border-bottom: 1px solid transparent;
-			}
-
-			.navigation .selectedButton {
-				width: 100%;
-				background-color: white;
-				border: none;
-				font-size: 16px;
 			}
 
 			#loadshade {
