@@ -4,8 +4,8 @@ function navigate(url) {
 	let br = document.createElement('br');
 	button.onclick = "location.reload()";
 	button.id = "reloadbutton";
-	document.getElementById('loadshade').appendChild(div);
-	document.getElementById('loadshade').appendChild(div);
+	document.getElementById('loadshade').appendChild(br);
+	document.getElementById('loadshade').appendChild(br);
 	document.getElementById('loadshade').appendChild(button);
 	document.getElementById('reloadbutton').innerHTML = "Close";
 	setTimeout(function() {
