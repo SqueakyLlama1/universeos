@@ -8,13 +8,10 @@
 
 		<link rel="stylesheet" href="https://universe-os.com/index.css">
 		
-		<title>Universe | Download</title>
+		<title>Universe | Ex</title>
 	</head>
 	<body>
-		<div class="navigation">
-			<button onclick="navigate('home')">Home</button><br>
-			<button onclick="navigate('download/')">Download</button>
-		</div>
+		<div id="navigation"></div>
 		<div id="loadshade">
 			<div class="middlediv">
 				<div class="loader"></div>
