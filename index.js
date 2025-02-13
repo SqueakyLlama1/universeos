@@ -10,8 +10,10 @@ function navigate(url) {
 
 function applyNavigation() {
 	const navcontent = `
-	<button onclick="navigate('home')" class="selectedButton">Home</button><br>
-	<button onclick="navigate('download/')">Download</button>`;
+	<button onclick="navigate('home')">Home</button><br>
+	<button onclick="navigate('download/')">Download</button><br>
+ 	<button onclick="navigate('contact/')">Contact</button><br>
+  	<button onclick="navigate('partners/')">Partners</button>`;
 	document.getElementById('navigation').innerHTML = navcontent;
 }
 
