@@ -12,8 +12,7 @@ function applyNavigation() {
 	const navcontent = `
 	<button onclick="navigate('home')">Home</button><br>
 	<button onclick="navigate('download/')">Download</button><br>
- 	<button onclick="navigate('contact/')">Contact</button><br>
-  	<button onclick="navigate('partners/')">Partners</button>`;
+ 	<button onclick="navigate('contact/')">Contact</button>
 	document.getElementById('navigation').innerHTML = navcontent;
 }
 
