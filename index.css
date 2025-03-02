@@ -7,7 +7,7 @@ html, head, body {
 
 			#navigation {
 				width: 16%;
-				background-color: #f7f7f7;
+				background-color: #201e2e;
 				height: 100%;
 				position: fixed;
 				left: 0;
@@ -18,7 +18,7 @@ html, head, body {
 			.content {
 				height: 100%;
 				width: 84%;
-				background-color: white;
+				background-color: #201e38;
 				position: fixed;
 				right: 0;
 				top: 0;
