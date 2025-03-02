@@ -6,6 +6,7 @@ html, head, body {
 }
 
 body {
+	color: white;
 	background-color: #28282e;
 }
 
@@ -26,6 +27,7 @@ body {
 	position: fixed;
 	right: 0;
 	top: 0;
+	overflow: auto;
 }
 
 #navigation button {
