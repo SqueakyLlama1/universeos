@@ -20,29 +20,7 @@
 		<div class="content">
 			<center>
 				<img src="https://universe-os.com/img/favicon.png"><br>
-				<h3>
-  				Universe is only available in English.<br>
- 				El universo solo está disponible en inglés.<br>
-  				L'univers est uniquement disponible en anglais.<br>
-  				Das Universum ist nur auf Englisch verfügbar.<br>
-  				宇宙仅提供英文版本。<br>
-  				Вселенная доступна только на английском языке.<br>
-  				宇宙は英語でのみ利用可能です。<br>
- 				Universo está disponível apenas em inglês.<br>
-  				الكون متاح باللغة الإنجليزية فقط.<br>
-  				ब्रह्मांड केवल अंग्रेजी में उपलब्ध है।<br>
-  				বিশ্ব কেবলমাত্র ইংরেজিতে উপলব্ধ।<br>
- 				الكون متوفر فقط باللغة الإنجليزية.<br>
-  				Evren yalnızca İngilizce olarak mevcuttur.<br>
- 				Всесвіт доступний лише англійською мовою.<br>
-				宇宙은 영어로만 제공됩니다.<br>
-  				Το σύμπαν είναι διαθέσιμο μόνο στα Αγγλικά.<br>
- 				Il universo è disponibile solo in inglese.<br>
-  				Vesmir je k dispozici pouze v angličtině.<br>
-  				Het universum is alleen beschikbaar in het Engels.<br>
-  				宇宙 chỉ có sẵn bằng tiếng Anh.<br>
-  				Uniberso ay makukuha lamang sa Ingles.<br>
-				</h3>
+				<div id="disclaimer"></div><br>
 				<h3>Why choose Universe?</h3>
 				<p>Have you ever had a hard time using modern day computers? Have you noticed computers being slow, stealing your data and more? It's time to switch to Universe.</p>
 				<p>Universe is aimed at making computers easier to use for seniors and people new to computers.</p>
@@ -58,5 +36,14 @@
 			</div>
 		</div>
 		<script src="https://universe-os.com/index.js"></script>
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				if (primaryLoaded) {
+					disclaimerIteration();
+				} else {
+					document.write('Failed to load website, if this happens again, please contact squeakyllama@universe-os.com or text 385-214-3655');
+				}
+			});
+		</script>
 	</body>
 </html>
