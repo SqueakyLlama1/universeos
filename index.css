@@ -90,3 +90,11 @@ body {
         	display: block;
     	}
 }
+
+#disclaimer {
+	width: fit-content;
+	transition: all 0.3s;
+	background-color: gray;
+	font-weight: bold;
+	padding: 3px;
+}
