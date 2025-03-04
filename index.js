@@ -1,5 +1,3 @@
-let primaryLoaded = true;
-
 function navigate(url) {
 	document.getElementById('loadshade').style.display = "block";
 	const universe = "https://universe-os.com/";
@@ -47,8 +45,10 @@ const disclaimerArray = [
 var daIndex = 0;
 
 function disclaimerIteration() {
+	document.getElementById('disclaimer').innerHTML = disclaimerArray[daIndex];
+	daIndex++;
 	setInterval(() => {
 		document.getElementById('disclaimer').innerHTML = disclaimerArray[daIndex];
 		daIndex = (daIndex + 1) % disclaimerArray.length;
-	}, 1000); // 7 seconds
+	}, 7000); // 7 seconds
 }
