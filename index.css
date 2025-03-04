@@ -93,8 +93,8 @@ body {
 
 #disclaimer {
 	width: fit-content;
-	transition: all 0.3s;
+	height: auto;
 	background-color: gray;
-	font-weight: bold;
 	padding: 3px;
+	border-radius: 3px;
 }
