@@ -1,4 +1,4 @@
-let primaryLoaded;
+let primaryLoaded = true;
 
 function navigate(url) {
 	document.getElementById('loadshade').style.display = "block";
